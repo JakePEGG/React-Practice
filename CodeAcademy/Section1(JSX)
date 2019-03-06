@@ -376,3 +376,8 @@ ReactDOM.render(
   myList,
   document.getElementById('app')
 );
+
+----
+
+Additional Dom Resource
+https://www.codecademy.com/articles/react-virtual-dom
