@@ -247,3 +247,11 @@ if (coinToss() === 'heads') {
 ReactDOM.render(img, document.getElementById('app'));
 
 ----------
+
+STEP 11
+Refactoring the Conditional
+const img = <img src={pics[coinToss() === 'heads' ? 'kitty' : 'doggy']} />;
+
+-------------
+
+STEP 12 
