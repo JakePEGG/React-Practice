@@ -116,9 +116,27 @@ document.getElementById('app')
 );
 
 ----------------
+Select app.js.
+
+Declare a new variable named math. Set math equal to a JSX <h1></h1> element.
+
+Put the following text inside of the <h1>:
+
+2 + 3 = 2 + 3
+2.
+At the bottom of the file, call ReactDOM.render().
+
+For ReactDOM.render()'s first argument, pass in math.
+
+For ReactDOM.render()'s second argument, pass in document.getElementById('app').
+
+3.
+As you probably expected, the equation was displayed as a string.
+
+Insert a pair of curly braces into the <h1></h1>, so that the browser displays 2 + 3 = 5.
 
 Step 5
-
+SOLUTION:
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -129,5 +147,16 @@ ReactDOM.render(math,
 document.getElementById('app'))
 
 -------------
+Solution
+Step 6
 
-Step 6 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const theBestString = 'tralalalala i am da best';
+
+ReactDOM.render(<h1>{theBestString}</h1>, document.getElementById('app'));
+
+------------
+
+Step 7 
