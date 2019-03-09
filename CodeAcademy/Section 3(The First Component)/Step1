@@ -1,3 +1,11 @@
+React applications are made out of components.
+
+What's a component?
+
+A component is a small, reusable chunk of code that is responsible for one job. That job is often to render some HTML.
+
+Take a look at the code below. This code will create and render a new React component:
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
